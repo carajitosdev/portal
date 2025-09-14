@@ -7,12 +7,16 @@
         <h1 class="text-7xl font-bold mb-8 animate-fade-in">DevHub Community</h1>
         <p class="text-2xl max-w-3xl mb-12 animate-slide-up">Uniendo desarrolladores, creando el futuro del software</p>
         <div class="flex gap-4">
-          <button class="px-8 py-3 bg-purple-600 rounded-lg hover:bg-purple-700 transition-all">
+          <a href="https://discord.gg/nekerit" target="_blank" rel="noopener noreferrer">
+            <button class="px-8 py-3 bg-purple-600 rounded-lg hover:bg-purple-700 transition-all">
             Únete ahora
-          </button>
-          <button class="px-8 py-3 border-2 border-white rounded-lg hover:bg-white hover:text-purple-900 transition-all">
-            Explorar proyectos
-          </button>
+            </button>
+          </a>
+          <a href="./Servicios">
+            <button class="px-8 py-3 border-2 border-white rounded-lg hover:bg-white hover:text-purple-900 transition-all">
+              Explorar servicios
+            </button>
+          </a>
         </div>
       </div>
     </section>

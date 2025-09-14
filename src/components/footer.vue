@@ -19,14 +19,11 @@
         <div>
           <h4 class="text-lg font-semibold text-green-400 mb-4">Síguenos</h4>
           <div class="flex gap-4">
-            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            <a href="https://github.com/nekerit" class="text-gray-400 hover:text-white transition-colors">
               <i class="fab fa-github text-xl"></i>
             </a>
-            <a href="#" class="text-gray-400 hover:text-white transition-colors">
-              <i class="fab fa-linkedin text-xl"></i>
-            </a>
-            <a href="#" class="text-gray-400 hover:text-white transition-colors">
-              <i class="fab fa-twitter text-xl"></i>
+            <a href="https://instagram.com/@hugo.ae" class="text-gray-400 hover:text-white transition-colors">
+              <i class="fab fa-instagram text-xl"></i>
             </a>
           </div>
         </div>
