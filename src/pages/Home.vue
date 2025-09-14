@@ -2,7 +2,7 @@
   <div class="space-y-16">
     <!-- Hero Banner -->
     <section class="relative h-screen overflow-hidden">
-      <div class="absolute inset-0 bg-gradient-to-r from-navy-900 via-navy-800 to-navy-700"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-green-900 via-green-800 to-green-700"></div>
       <div class="relative z-10 h-full flex flex-col justify-center items-center text-center p-8">
         <h1 class="text-7xl font-bold mb-8 animate-fade-in">DevHub Community</h1>
         <p class="text-2xl max-w-3xl mb-12 animate-slide-up">Uniendo desarrolladores, creando el futuro del software</p>
@@ -18,35 +18,35 @@
     </section>
 
     <!-- About Section -->
-    <section class="py-24 bg-gradient-to-b from-navy-900/50 to-transparent">
+    <section class="py-24 bg-gradient-to-b from-green-900/50 to-transparent">
       <div class="container mx-auto px-4">
         <!-- Intro Section -->
         <div class="text-center max-w-4xl mx-auto mb-20">
-          <h2 class="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-100">
+          <h2 class="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-100">
             Potenciando el Futuro Digital
           </h2>
-          <p class="text-xl text-blue-100/90 leading-relaxed">
+          <div class="text-green-100/90">
             En Nekerit, reunimos el talento y la pasión por la tecnología para crear soluciones que transforman la manera en que el mundo interactúa con el software.
-          </p>
+          </div>
         </div>
 
         <!-- Stats Section -->
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20">
           <div class="text-center p-6 bg-white/5 rounded-xl backdrop-blur-sm">
-            <div class="text-4xl font-bold text-blue-300 mb-2">500+</div>
-            <div class="text-blue-100/80">Desarrolladores</div>
+            <div class="text-4xl font-bold text-green-300 mb-2">500+</div>
+            <div class="text-green-100/80">Desarrolladores</div>
           </div>
           <div class="text-center p-6 bg-white/5 rounded-xl backdrop-blur-sm">
-            <div class="text-4xl font-bold text-blue-300 mb-2">150+</div>
-            <div class="text-blue-100/80">Proyectos Completados</div>
+            <div class="text-4xl font-bold text-green-300 mb-2">150+</div>
+            <div class="text-green-100/80">Proyectos Completados</div>
           </div>
           <div class="text-center p-6 bg-white/5 rounded-xl backdrop-blur-sm">
-            <div class="text-4xl font-bold text-blue-300 mb-2">20+</div>
-            <div class="text-blue-100/80">Países</div>
+            <div class="text-4xl font-bold text-green-300 mb-2">20+</div>
+            <div class="text-green-100/80">Países</div>
           </div>
           <div class="text-center p-6 bg-white/5 rounded-xl backdrop-blur-sm">
-            <div class="text-4xl font-bold text-blue-300 mb-2">98%</div>
-            <div class="text-blue-100/80">Satisfacción</div>
+            <div class="text-4xl font-bold text-green-300 mb-2">98%</div>
+            <div class="text-green-100/80">Satisfacción</div>
           </div>
         </div>
 
@@ -54,29 +54,29 @@
         <div class="grid md:grid-cols-2 gap-16 items-start">
           <div class="space-y-8">
             <div class="bg-white/5 p-8 rounded-xl backdrop-blur-sm">
-              <h3 class="text-2xl font-bold text-blue-300 mb-4">Nuestra Historia</h3>
-              <p class="text-blue-100/80 leading-relaxed mb-4">
+              <h3 class="text-2xl font-bold text-green-300 mb-4">Nuestra Historia</h3>
+              <p class="text-green-100/80 leading-relaxed mb-4">
                 Fundada en 2024, Nekerit nació con la visión de crear un espacio donde los desarrolladores pudieran colaborar, aprender y crecer juntos.
               </p>
-              <p class="text-blue-100/80 leading-relaxed">
+              <p class="text-green-100/80 leading-relaxed">
                 Hoy, somos una comunidad global de innovadores tecnológicos que trabajan en proyectos de vanguardia y comparten conocimientos para impulsar el progreso digital.
               </p>
             </div>
             
             <div class="grid grid-cols-2 gap-6">
               <div class="bg-white/5 p-6 rounded-xl backdrop-blur-sm">
-                <h3 class="text-xl font-semibold mb-3 text-blue-300">Misión</h3>
-                <p class="text-blue-100/80">Impulsar la innovación tecnológica a través de la colaboración y el conocimiento compartido, creando soluciones que impacten positivamente en la sociedad.</p>
+                <h3 class="text-xl font-semibold mb-3 text-green-300">Misión</h3>
+                <p class="text-green-100/80">Impulsar la innovación tecnológica a través de la colaboración y el conocimiento compartido, creando soluciones que impacten positivamente en la sociedad.</p>
               </div>
               <div class="bg-white/5 p-6 rounded-xl backdrop-blur-sm">
-                <h3 class="text-xl font-semibold mb-3 text-blue-300">Visión</h3>
-                <p class="text-blue-100/80">Ser la comunidad líder global en desarrollo de software, reconocida por nuestra excelencia técnica y compromiso con la innovación sostenible.</p>
+                <h3 class="text-xl font-semibold mb-3 text-green-300">Visión</h3>
+                <p class="text-green-100/80">Ser la comunidad líder global en desarrollo de software, reconocida por nuestra excelencia técnica y compromiso con la innovación sostenible.</p>
               </div>
             </div>
           </div>
 
           <div class="space-y-8">
-            <h3 class="text-2xl font-bold text-blue-300">Nuestros Servicios</h3>
+            <h3 class="text-2xl font-bold text-green-300">Nuestros Servicios</h3>
             <div class="space-y-6">
               <div class="group bg-white/5 p-6 rounded-xl hover:bg-white/10 transition-all">
                 <div class="flex items-start gap-4">
@@ -199,7 +199,7 @@
     </section>
 
     <!-- Featured Projects -->
-    <section class="py-16 bg-gradient-to-b from-transparent to-purple-900/20">
+    <section class="py-16 bg-gradient-to-b from-transparent to-green-900/20">
       <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold text-center mb-12">Proyectos Destacados</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -211,7 +211,7 @@
               <p class="text-sm opacity-80 mb-4">{{ project.description }}</p>
               <div class="flex flex-wrap gap-2">
                 <span v-for="tag in project.tags" :key="tag"
-                      class="px-3 py-1 bg-purple-500/20 rounded-full text-xs">
+                      class="px-3 py-1 bg-green-500/20 rounded-full text-xs">
                   {{ tag }}
                 </span>
               </div>

@@ -7,7 +7,7 @@ import CookieConsent from './components/CookieConsent.vue'
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-900 flex flex-col text-white bg-gradient-to-r from-blue-900 via-blue-700 to-blue-400">
+  <div class="min-h-screen bg-gray-900 flex flex-col text-white bg-gradient-to-r from-green-900 via-green-700 to-green-400">
     <NavBar />
     <div class="w-full">
       <router-view></router-view>

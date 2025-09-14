@@ -8,7 +8,7 @@
     leave-to-class="transform translate-y-full opacity-0"
   >
     <div v-if="!cookiesAccepted" 
-         class="fixed bottom-0 left-0 right-0 bg-navy-900/95 backdrop-blur-md p-4 shadow-lg z-50">
+         class="fixed bottom-0 left-0 right-0 bg-green-900/95 backdrop-blur-md p-4 shadow-lg z-50">
       <div class="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <div class="text-sm text-blue-100">
           Utilizamos cookies para mejorar tu experiencia. Al continuar navegando, aceptas nuestra 
@@ -16,7 +16,7 @@
         </div>
         <div class="flex gap-4">
           <button @click="acceptCookies" 
-                  class="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-sm font-medium transition-colors">
+                  class="px-4 py-2 bg-green-600 hover:bg-green-700 rounded-lg text-sm font-medium transition-colors">
             Aceptar
           </button>
           <button @click="rejectCookies"

@@ -1,11 +1,12 @@
 <template>
-  <nav class="fixed w-full top-0 z-50 bg-navy-900/80 backdrop-blur-md">
+  <nav class="fixed w-full top-0 z-50 bg-green-900/80 backdrop-blur-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <!-- Logo y Nombre -->
         <div class="flex items-center">
           <router-link to="/" class="flex items-center gap-2">
-            <span class="text-xl font-bold bg-gradient-to-r from-blue-400 to-blue-100 bg-clip-text text-transparent">
+            <img src="@/assets/logo.png" alt="Logo Nekerit" class="h-8 w-8" />
+            <span class="text-xl font-bold bg-gradient-to-r from-green-400 to-green-100 bg-clip-text text-transparent">
               Nekerit
             </span>
           </router-link>
@@ -20,8 +21,8 @@
                         class="px-3 py-2 rounded-md text-sm font-medium transition-colors"
                         :class=" [
                           $route.path === item.path 
-                            ? 'bg-blue-500/20 text-white' 
-                            : 'text-gray-300 hover:bg-blue-500/10 hover:text-white'
+                            ? 'bg-green-500/20 text-white' 
+                            : 'text-gray-300 hover:bg-green-500/10 hover:text-white'
                         ]">
               {{ item.name }}
             </router-link>
@@ -56,8 +57,8 @@
                       class="block px-3 py-2 rounded-md text-base font-medium transition-colors"
                       :class=" [
                         $route.path === item.path 
-                          ? 'bg-blue-500/20 text-white' 
-                          : 'text-gray-300 hover:bg-blue-500/10 hover:text-white'
+                          ? 'bg-green-500/20 text-white' 
+                          : 'text-gray-300 hover:bg-green-500/10 hover:text-white'
                       ]">
             {{ item.name }}
           </router-link>
