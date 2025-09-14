@@ -6,7 +6,7 @@
         <div class="flex items-center">
           <router-link to="/" class="flex items-center gap-2">
             <img src="@/assets/logo.png" alt="Logo Nekerit" class="h-8 w-8" />
-            <span class="text-xl font-bold bg-gradient-to-r from-green-400 to-green-100 bg-clip-text text-transparent">
+            <span class="text-xl font-bold bg-gradient-to-r from-green-500 to-green-100 bg-clip-text text-transparent">
               Nekerit
             </span>
           </router-link>

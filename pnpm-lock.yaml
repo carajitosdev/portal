@@ -17,6 +17,9 @@ importers:
       '@vueuse/core':
         specifier: ^10.7.0
         version: 10.11.1(vue@3.5.21(typescript@5.9.2))
+      '@vueuse/integrations':
+        specifier: ^10.7.0
+        version: 10.11.1(vue@3.5.21(typescript@5.9.2))
       gsap:
         specifier: ^3.12.5
         version: 3.13.0
@@ -440,6 +443,47 @@ packages:
 
   '@vueuse/core@10.11.1':
     resolution: {integrity: sha512-guoy26JQktXPcz+0n3GukWIy/JDNKti9v6VEMu6kV2sYBsWuGiTU8OWdg+ADfUbHg3/3DlqySDe7JmdHrktiww==}
+
+  '@vueuse/integrations@10.11.1':
+    resolution: {integrity: sha512-Y5hCGBguN+vuVYTZmdd/IMXLOdfS60zAmDmFYc4BKBcMUPZH1n4tdyDECCPjXm0bNT3ZRUy1xzTLGaUje8Xyaw==}
+    peerDependencies:
+      async-validator: ^4
+      axios: ^1
+      change-case: ^4
+      drauu: ^0.3
+      focus-trap: ^7
+      fuse.js: ^6
+      idb-keyval: ^6
+      jwt-decode: ^3
+      nprogress: ^0.2
+      qrcode: ^1.5
+      sortablejs: ^1
+      universal-cookie: ^6
+    peerDependenciesMeta:
+      async-validator:
+        optional: true
+      axios:
+        optional: true
+      change-case:
+        optional: true
+      drauu:
+        optional: true
+      focus-trap:
+        optional: true
+      fuse.js:
+        optional: true
+      idb-keyval:
+        optional: true
+      jwt-decode:
+        optional: true
+      nprogress:
+        optional: true
+      qrcode:
+        optional: true
+      sortablejs:
+        optional: true
+      universal-cookie:
+        optional: true
 
   '@vueuse/metadata@10.11.1':
     resolution: {integrity: sha512-IGa5FXd003Ug1qAZmyE8wF3sJ81xGLSqTqtQ6jaVfkeZ4i5kS2mwQF61yhVqojRnenVew5PldLyRgvdl4YYuSw==}
@@ -1281,6 +1325,15 @@ snapshots:
     dependencies:
       '@types/web-bluetooth': 0.0.20
       '@vueuse/metadata': 10.11.1
+      '@vueuse/shared': 10.11.1(vue@3.5.21(typescript@5.9.2))
+      vue-demi: 0.14.10(vue@3.5.21(typescript@5.9.2))
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+
+  '@vueuse/integrations@10.11.1(vue@3.5.21(typescript@5.9.2))':
+    dependencies:
+      '@vueuse/core': 10.11.1(vue@3.5.21(typescript@5.9.2))
       '@vueuse/shared': 10.11.1(vue@3.5.21(typescript@5.9.2))
       vue-demi: 0.14.10(vue@3.5.21(typescript@5.9.2))
     transitivePeerDependencies:

@@ -4,7 +4,7 @@
     <section class="relative h-screen overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-r from-green-900 via-green-800 to-green-700"></div>
       <div class="relative z-10 h-full flex flex-col justify-center items-center text-center p-8">
-        <h1 class="text-7xl font-bold mb-8 animate-fade-in">DevHub Community</h1>
+        <h1 class="text-7xl font-bold mb-8 animate-fade-in">Nekerit Studios</h1>
         <p class="text-2xl max-w-3xl mb-12 animate-slide-up">Uniendo desarrolladores, creando el futuro del software</p>
         <div class="flex gap-4">
           <a href="https://discord.gg/nekerit" target="_blank" rel="noopener noreferrer">
@@ -37,15 +37,15 @@
         <!-- Stats Section -->
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20">
           <div class="text-center p-6 bg-white/5 rounded-xl backdrop-blur-sm">
-            <div class="text-4xl font-bold text-green-300 mb-2">500+</div>
+            <div class="text-4xl font-bold text-green-300 mb-2">+30</div>
             <div class="text-green-100/80">Desarrolladores</div>
           </div>
           <div class="text-center p-6 bg-white/5 rounded-xl backdrop-blur-sm">
-            <div class="text-4xl font-bold text-green-300 mb-2">150+</div>
+            <div class="text-4xl font-bold text-green-300 mb-2">+10</div>
             <div class="text-green-100/80">Proyectos Completados</div>
           </div>
           <div class="text-center p-6 bg-white/5 rounded-xl backdrop-blur-sm">
-            <div class="text-4xl font-bold text-green-300 mb-2">20+</div>
+            <div class="text-4xl font-bold text-green-300 mb-2">+10</div>
             <div class="text-green-100/80">Países</div>
           </div>
           <div class="text-center p-6 bg-white/5 rounded-xl backdrop-blur-sm">
